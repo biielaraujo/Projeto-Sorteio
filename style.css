@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+
+}
+
+body {
+    background: #8A51FC;
+}
+
+.gif-logo {
+    height: 300px;
+    width: 300px;
+    margin-top: 12px;
+    margin-left: 729px;
+}
+
+main {
+    position: absolute;
+    width: 375px;
+    height: 712px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    top: 328px;
+    left: 691px;
+    display: inline-block;
+}
+
+label {
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+select, .input-value {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    position: absolute;
+    width: 327px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    appearance: none;
+    padding-left: 18px;
+}
+
+.label-converter-de {
+    top: 44px;
+    left: 24px;
+}
+
+.select-converter-de {
+    top: 21px;
+    left: 0;
+
+}
+
+.label-converter-para {
+    top: 140px;
+    left: 24px;
+}
+
+.select-converter-para {
+    top: 21px;
+    left: 0;
+}
+
+.label-valor {
+    top: 236px;
+    left: 24px;
+
+}
+
+
+
+button {
+    position: relative;
+    top: 329px;
+    left: 24px;
+    width: 327px;
+    height: 48px;
+    background: #772FD3;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.section-resultado {
+    position: absolute;
+    top: 413px;
+    left: 24px;
+    width: 327px;
+    height: 276px;
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+}
+
+.logo-converter {
+    width: 44px;
+    height: 44px;
+    margin-top: 12px;
+    margin-left: 139px;
+}
+
+.logo-seta {
+    margin-top: 15px;
+    margin-left: 143px;
+}
+
+.logo-convertida {
+    width: 44px;
+    height: 44px;
+    margin-top: 12px;
+    margin-left: 139px;
+}
+
+p {
+    text-align: center;
+}
+
+.p-moeda, .p-moeda-convertida {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+.p-resultado, .p-resultado-convertido {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #555555;
+}
